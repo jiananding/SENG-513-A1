@@ -1,5 +1,5 @@
 body {
-  background: rgb(30, 102, 78);
+  background;
   color: white;
 }
 
@@ -25,4 +25,8 @@ body {
 .navigation_bar a.active {
     background-color: #4CAF50;
     color: white;
+}
+
+ul {
+    list-style: none;
 }

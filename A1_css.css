@@ -1,0 +1,18 @@
+body {
+  background: rgb(30, 102, 78);
+  color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: chartreuse;
+}

@@ -3,16 +3,26 @@ body {
   color: white;
 }
 
-ul {
-    list-style: none;
+.navigation_bar {
+    background-color: slategray;
+    overflow: hidden;
 }
 
-li {
+.navigation_bar a {
     float: left;
+    color: teal;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-a {
-    display: block;
-    padding: 8px;
-    background-color: chartreuse;
+.navigation_bar a:hover {
+    background-color: tomato;
+    color: violet;
+}
+
+.navigation_bar a:active {
+    background-color: yellow;
+    color: white;
 }

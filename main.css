@@ -4,13 +4,13 @@ body {
 }
 
 .navigation_bar {
-    background-color: slategray;
+    background-color: #333;
     overflow: hidden;
 }
 
 .navigation_bar a {
     float: left;
-    color: teal;
+    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -18,11 +18,11 @@ body {
 }
 
 .navigation_bar a:hover {
-    background-color: tomato;
-    color: violet;
+    background-color: #ddd;
+    color: black;
 }
 
 .navigation_bar a.active {
-    background-color: yellow;
+    background-color: #4CAF50;
     color: white;
 }

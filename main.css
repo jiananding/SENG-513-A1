@@ -22,7 +22,7 @@ body {
     color: violet;
 }
 
-.navigation_bar a:active {
+.navigation_bar a.active {
     background-color: yellow;
     color: white;
 }

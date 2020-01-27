@@ -66,6 +66,26 @@ body {
     color: royalblue;
 }
 
+.type_dark {
+    color: rgb(87, 87, 87);
+}
+
+.type_fighting {
+    color: rgb(255, 154, 96);
+}
+
+.type_ground {
+    color: rgb(129, 49, 2);
+}
+
+.type_normal {
+    color: rgb(255, 166, 0);
+}
+
+.type_bug {
+    color: rgb(59, 128, 38);
+}
+
 a {
     text-decoration: none;
 }
@@ -77,4 +97,13 @@ a {
 
 .pic {
     margin-top: 5px;
+}
+
+#double_type {
+    display: inline-block;
+    word-spacing: 5px;
+}
+
+.pokedex {
+    color: rebeccapurple;
 }

@@ -29,7 +29,7 @@ body {
     color: white;
 }
 
-.box {
+tr {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -37,15 +37,15 @@ body {
     margin-left: 30px;
 }
 
-.cells {
+td {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 125px;
+    width: 130px;
     height: 190px;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 20px;
-    margin: 10px;
+    margin: 15px;
 }
 
 .name {
@@ -86,6 +86,18 @@ body {
     color: rgb(59, 128, 38);
 }
 
+.type_flying {
+    color: rgb(80, 188, 231);
+}
+
+.type_poison {
+    color: rgb(78, 67, 151);
+}
+
+.type_psychic {
+    color: rgb(255, 95, 122);
+}
+
 a {
     text-decoration: none;
 }
@@ -105,5 +117,6 @@ a {
 }
 
 .pokedex {
-    color: rebeccapurple;
+    width: auto;
+    height: auto;
 }

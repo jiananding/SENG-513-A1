@@ -1,8 +1,10 @@
 body {
     background-image: url(https://i.imgur.com/MlkzCgC.png);
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
-    margin: auto;
+    font-family: sans-serif;
+    margin-top: 160px;
+    padding: 30px;
 }
 
 tr {
@@ -97,27 +99,35 @@ a {
     height: auto;
 }
 
-.navigation {
-    display: flex;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #98D7C2;
-    justify-content: flex-start;
-    align-items: center;
+header img {
+    height: 150px;
 }
 
-.navigation li {
-    list-style-type: none;
-    margin: 0 20px;
-    font-size: xx-large;
-    display: block;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
 }
 
-.navigation a {
-    padding: 20px;
+
+header * {
+    display: inline;
 }
 
-.navigation a:hover {
-    background-color: #0490AE;
+header li {
+    margin:50px;
+    margin-top: 30px;
+    font-size: x-large;
+}
+
+header li a {
+    color: black;
+    font-size: x-large;
+}
+
+.icons {
+    width: 80px;
+    height: 80px;
 }

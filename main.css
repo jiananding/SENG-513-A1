@@ -256,7 +256,7 @@ header li:hover {
     height: auto;
     background-color: rgba(255, 255, 255, 0.6);
     display: table;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .grass_type_info ul {
@@ -267,7 +267,7 @@ header li:hover {
 .grass_type_info li {
 }
 
-.grass_type_info .type {
+.type {
     display: flex;
     width: 120px;
     height: 60px;
@@ -296,3 +296,34 @@ header li:hover {
 .info h1 {
     font-weight: bold;
 }
+
+.pokemon_info {
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.pokemon_info .pokemon_pic {
+    margin-top: 20px;
+}
+
+.pokemon_info table{
+    border-collapse: collapse;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pokemon_info .info_table .info_row{
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    font-family: "Fira Sans","Trebuchet MS",Helvetica,Arial sans-serif;
+    font-size: large;
+}
+
+

@@ -29,47 +29,47 @@ body {
     transform: scale(1.1);
 }
 
-.pokedex .type_grass {
+.pokedex .i_type_grass {
     color: #589c30;
 }
 
-.pokedex .type_fire {
+.pokedex .i_type_fire {
     color: rgb(238, 0, 0);
 }
 
-.pokedex .type_water {
+.pokedex .i_type_water {
     color: royalblue;
 }
 
-.pokedex .type_dark {
+.pokedex .i_type_dark {
     color: rgb(87, 87, 87);
 }
 
-.pokedex .type_fighting {
+.pokedex .i_type_fighting {
     color: rgb(255, 154, 96);
 }
 
-.pokedex .type_ground {
+.pokedex .i_type_ground {
     color: rgb(129, 49, 2);
 }
 
-.pokedex .type_normal {
+.pokedex .i_type_normal {
     color: rgb(255, 166, 0);
 }
 
-.pokedex .type_bug {
+.pokedex .i_type_bug {
     color: rgb(59, 128, 38);
 }
 
-.pokedex .type_flying {
+.pokedex .i_type_flying {
     color: rgb(80, 188, 231);
 }
 
-.pokedex .type_poison {
+.pokedex .i_type_poison {
     color: rgb(78, 67, 151);
 }
 
-.pokedex .type_psychic {
+.pokedex .i_type_psychic {
     color: rgb(255, 95, 122);
 }
 
@@ -252,14 +252,16 @@ header li:hover {
 }
 
 .grass_type_info .info {
-    width: 1600px;
-    height: 760;
+    width: 100%;
+    height: auto;
     background-color: rgba(255, 255, 255, 0.6);
     display: table;
+    margin-top: 10px;
 }
 
 .grass_type_info ul {
     list-style: none;
+    margin-left: 20px;
 }
 
 .grass_type_info li {
@@ -280,4 +282,17 @@ header li:hover {
 
 .info .attack_pros h3{
     display: inline-flex;
+    color: black;
+}
+
+.grass_type_info .type:hover {
+    transform: scale(1.2);
+}
+
+.info a {
+    text-decoration: none;
+}
+
+.info h1 {
+    font-weight: bold;
 }

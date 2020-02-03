@@ -3,70 +3,73 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: sans-serif;
-    margin-top: 160px;
     padding: 30px;
 }
 
-tr {
+.pokedex tr {
     display: flex;
     justify-content: start;
     align-items: center;
     padding: 10px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
-td {
+.pokedex td {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 130px;
-    height: 190px;
+    width: 140px;
+    height: 200px;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 20px;
     margin: 15px;
 }
 
-.type_grass {
+.pokedex td:hover {
+    transform: scale(1.1);
+}
+
+.pokedex .type_grass {
     color: #589c30;
 }
 
-.type_fire {
+.pokedex .type_fire {
     color: rgb(238, 0, 0);
 }
 
-.type_water {
+.pokedex .type_water {
     color: royalblue;
 }
 
-.type_dark {
+.pokedex .type_dark {
     color: rgb(87, 87, 87);
 }
 
-.type_fighting {
+.pokedex .type_fighting {
     color: rgb(255, 154, 96);
 }
 
-.type_ground {
+.pokedex .type_ground {
     color: rgb(129, 49, 2);
 }
 
-.type_normal {
+.pokedex .type_normal {
     color: rgb(255, 166, 0);
 }
 
-.type_bug {
+.pokedex .type_bug {
     color: rgb(59, 128, 38);
 }
 
-.type_flying {
+.pokedex .type_flying {
     color: rgb(80, 188, 231);
 }
 
-.type_poison {
+.pokedex .type_poison {
     color: rgb(78, 67, 151);
 }
 
-.type_psychic {
+.pokedex .type_psychic {
     color: rgb(255, 95, 122);
 }
 
@@ -95,22 +98,20 @@ a {
 }
 
 .pokedex {
-    width: auto;
-    height: auto;
-}
+    margin-left: auto;
+    margin-right: auto;
+}   
 
 header img {
     height: 150px;
 }
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 150px;
+    background-image: url(http://static.minitokyo.net/downloads/22/36/596822.jpg);
+    background-position-y: 580px;
+    background-size: cover;
+    overflow: hidden;
 }
-
 
 header * {
     display: inline;
@@ -119,15 +120,133 @@ header * {
 header li {
     margin:50px;
     margin-top: 30px;
-    font-size: x-large;
 }
 
 header li a {
     color: black;
-    font-size: x-large;
+    font-size: 40px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header li:hover {
+    transform: scale(1.2);
 }
 
 .icons {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
+    padding-bottom: 20px;
+}
+
+.icons:hover {
+    transform: scale(1.5);
+}
+
+.type_table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.type_table tr {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    margin-left: 40px;
+    font-family: "Fira Sans","Trebuchet MS",Helvetica,Arial sans-serif;
+}
+
+.type_table td {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 2px rgba(39, 39, 39, 0.6);
+}
+
+.type_table td:hover {
+    transform: scale(1.2);
+}
+
+.type_table a {
+    color: black;
+    font-weight: bold;
+}
+
+.type_table .type_normal {
+    background-color: #aa9;
+}
+
+.type_table .type_fire {
+    background-color: #f42;
+}
+
+.type_table .type_water {
+    background-color: #39f;
+}
+
+.type_table .type_electric {
+    background-color: #fc3;
+}
+
+.type_table .type_grass {
+    background-color: #7c5;
+}
+
+.type_table .type_ice {
+    background-color: #6cf;
+}
+
+.type_table .type_fighting {
+    background-color: #b54;
+}
+
+.type_table .type_poison {
+    background-color: #a59;
+}
+
+.type_table .type_ground {
+    background-color: #db5;
+}
+
+.type_table .type_flying {
+    background-color: #89f;
+}
+
+.type_table .type_psyhic{
+    background-color: #f59;
+}
+
+.type_table .type_bug {
+    background-color: #ab2;
+}
+
+.type_table .type_rock {
+    background-color: #ba6;
+}
+
+.type_table .type_ghost {
+    background-color: #66b;
+}
+
+.type_table .type_dragon {
+    background-color: #76e;
+}
+
+.type_table .type_dark {
+    background-color: #754;
+}
+
+.type_table .type_steel {
+    background-color: #aab;
+}
+
+.type_table .type_fairy {
+    background-color: #e9e;
 }

@@ -179,74 +179,105 @@ header li:hover {
     font-weight: bold;
 }
 
-.type_table .type_normal {
+.type_normal {
     background-color: #aa9;
 }
 
-.type_table .type_fire {
+.type_fire {
     background-color: #f42;
 }
 
-.type_table .type_water {
+.type_water {
     background-color: #39f;
 }
 
-.type_table .type_electric {
+.type_electric {
     background-color: #fc3;
 }
 
-.type_table .type_grass {
+.type_grass {
     background-color: #7c5;
 }
 
-.type_table .type_ice {
+.type_ice {
     background-color: #6cf;
 }
 
-.type_table .type_fighting {
+.type_fighting {
     background-color: #b54;
 }
 
-.type_table .type_poison {
+.type_poison {
     background-color: #a59;
 }
 
-.type_table .type_ground {
+.type_ground {
     background-color: #db5;
 }
 
-.type_table .type_flying {
+.type_flying {
     background-color: #89f;
 }
 
-.type_table .type_psyhic{
+.type_psyhic{
     background-color: #f59;
 }
 
-.type_table .type_bug {
+.type_bug {
     background-color: #ab2;
 }
 
-.type_table .type_rock {
+.type_rock {
     background-color: #ba6;
 }
 
-.type_table .type_ghost {
+.type_ghost {
     background-color: #66b;
 }
 
-.type_table .type_dragon {
+.type_dragon {
     background-color: #76e;
 }
 
-.type_table .type_dark {
+.type_dark {
     background-color: #754;
 }
 
-.type_table .type_steel {
+.type_steel {
     background-color: #aab;
 }
 
-.type_table .type_fairy {
+.type_fairy {
     background-color: #e9e;
+}
+
+.grass_type_info .info {
+    width: 1600px;
+    height: 760;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: table;
+}
+
+.grass_type_info ul {
+    list-style: none;
+}
+
+.grass_type_info li {
+}
+
+.grass_type_info .type {
+    display: flex;
+    width: 120px;
+    height: 60px;
+    border-radius: 20px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 2px rgba(39, 39, 39, 0.6);
+    font-family: "Fira Sans","Trebuchet MS",Helvetica,Arial sans-serif;
+    font-weight: bold;
+}
+
+.info .attack_pros h3{
+    display: inline-flex;
 }
